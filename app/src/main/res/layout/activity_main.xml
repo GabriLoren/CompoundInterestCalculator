@@ -32,12 +32,12 @@
         android:id="@+id/editTextNumberDecimalCapitalInicial"
         android:layout_width="164dp"
         android:layout_height="47dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
         android:id="@+id/editTextNumberDecimalAportacionAnual"
@@ -54,12 +54,12 @@
         android:id="@+id/textView"
         android:layout_width="103dp"
         android:layout_height="32dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
         android:gravity="center"
         android:text="Capital inicial"
         app:layout_constraintStart_toEndOf="@+id/editTextNumberDecimalCapitalInicial"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView2"
@@ -108,10 +108,23 @@
         android:id="@+id/textViewResultado"
         android:layout_width="134dp"
         android:layout_height="110dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
         android:gravity="center"
         app:layout_constraintStart_toEndOf="@+id/buttonCalcular"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="243dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="INTERES COMPUESTO"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
