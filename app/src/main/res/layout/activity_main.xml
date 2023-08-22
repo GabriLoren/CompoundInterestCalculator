@@ -8,54 +8,58 @@
 
     <EditText
         android:id="@+id/editTextNumberDecimalAnyos"
-        android:layout_width="162dp"
-        android:layout_height="42dp"
+        android:layout_width="126dp"
+        android:layout_height="51dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalAportacionAnual" />
 
     <EditText
         android:id="@+id/editTextNumberDecimalIniacial"
-        android:layout_width="162dp"
-        android:layout_height="48dp"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalAnyos" />
 
     <EditText
         android:id="@+id/editTextNumberDecimalCapitalInicial"
-        android:layout_width="164dp"
-        android:layout_height="47dp"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="44dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
         android:id="@+id/editTextNumberDecimalAportacionAnual"
-        android:layout_width="162dp"
-        android:layout_height="44dp"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalCapitalInicial" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="103dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="143dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
         android:gravity="center"
         android:text="Capital inicial"
         app:layout_constraintStart_toEndOf="@+id/editTextNumberDecimalCapitalInicial"
@@ -63,10 +67,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="103dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
         android:gravity="center"
         android:text="Aportación anual"
         app:layout_constraintStart_toEndOf="@+id/editTextNumberDecimalAportacionAnual"
@@ -74,10 +78,10 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="103dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="131dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
         android:gravity="center"
         android:text="Años"
         app:layout_constraintStart_toEndOf="@+id/editTextNumberDecimalAnyos"
@@ -98,8 +102,8 @@
         android:id="@+id/buttonCalcular"
         android:layout_width="154dp"
         android:layout_height="74dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
         android:text="Calcular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimalIniacial" />
